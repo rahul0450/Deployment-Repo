@@ -3,8 +3,7 @@ import pandas as pd
 import numpy as np
 from prediction import predict
 
-
-st.title('Classifying Iris Flowers using Machine Learning')
+st.title('Classifying Iris Flowers using Machine Learning', fg_color='red')
 st.markdown('Toy model to play to classify iris flowers into \
      (setosa, versicolor, virginica) based on their sepal/petal \
     and length/width.')
